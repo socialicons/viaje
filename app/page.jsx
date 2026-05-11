@@ -32,7 +32,7 @@ export default function HomePage() {
               <span className="text-brandBlue italic">Impecables.</span>
             </h1>
             <p className="text-xl text-slate-500 max-w-lg font-light leading-relaxed">
-              Transformamos el objeto social en ejecución estratégica. Logística B2G con **infraestructura propia** en Bogotá para el sector público y corporativo.
+              Transformamos el objeto social en ejecución estratégica. Logística B2G con <strong>infraestructura propia</strong> en Bogotá para el sector público y corporativo.
             </p>
             <div className="flex flex-wrap items-center gap-8 pt-4">
               <a href="#servicios" className="bg-brandBlue text-white font-bold py-5 px-12 rounded-full hover:bg-brandTeal transition-all shadow-[0_20px_40px_rgba(43,91,132,0.3)] hover:-translate-y-1">
