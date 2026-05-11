@@ -39,7 +39,7 @@ export default function HomePage() {
                 Explorar Servicios
               </a>
               <a href="#experiencia" className="text-slate-900 font-bold border-b-2 border-slate-900 py-1 hover:text-brandTeal hover:border-brandTeal transition-all uppercase text-xs tracking-widest">
-                Nuestra Trayectoria →
+                Nuestra Trayectoria &rarr;
               </a>
             </div>
           </div>
@@ -48,23 +48,23 @@ export default function HomePage() {
             <div className="absolute inset-0 bg-brandBlue/5 rounded-full blur-[120px] -z-10"></div>
             <div className="grid grid-cols-2 gap-6 rotate-[15deg] scale-110 group transition-transform duration-1000 hover:rotate-0">
               <div className="mask-diamond w-full aspect-square overflow-hidden shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
+                <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800" alt="Hero 1" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
               </div>
               <div className="mask-diamond w-full aspect-square overflow-hidden shadow-2xl translate-y-12">
-                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
+                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=800" alt="Hero 2" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
               </div>
               <div className="mask-diamond w-full aspect-square overflow-hidden shadow-2xl -translate-y-12">
-                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800" alt="Hero 3" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
               </div>
               <div className="mask-diamond w-full aspect-square overflow-hidden shadow-2xl">
-                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
+                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=800" alt="Hero 4" className="w-full h-full object-cover -rotate-[15deg] group-hover:rotate-0 scale-150 transition-all duration-1000" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 2. LOGOS: MARQUEE (DINAMISMO) */}
+      {/* 2. LOGOS: MARQUEE */}
       <section className="bg-slate-50 py-16 border-y border-slate-100 overflow-hidden">
         <div className="animate-marquee flex items-center">
           {[1, 2].map((i) => (
@@ -84,7 +84,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2.1 CIFRAS DE IMPACTO (ESTO SUMA NIVEL SIN DAÑAR EL DISEÑO) */}
+      {/* 2.1 CIFRAS DE IMPACTO */}
       <section className="bg-white py-20 border-b border-slate-50">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
           <div>
@@ -106,7 +106,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. AUTORIDAD Y SEO (MANTENIENDO TU ESTRUCTURA) */}
+      {/* 3. AUTORIDAD Y SEO */}
       <section id="experiencia" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-6">
@@ -150,7 +150,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. PROPUESTA DE VALOR: (01, 02, 03 - ZEN) */}
+      {/* 4. PROPUESTA DE VALOR */}
       <section className="py-32 bg-slate-50 rounded-[5rem]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-5xl font-black text-slate-900 mb-16 tracking-tighter leading-tight">
@@ -176,7 +176,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. SERVICIOS: (TUS TARJETAS LIMPIAS) */}
+      {/* 5. SERVICIOS */}
       <section id="servicios" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -188,8 +188,7 @@ export default function HomePage() {
                 <h3 className="text-2xl font-black text-brandBlue mb-4 tracking-tighter leading-none">{item.servicio}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed mb-10 font-light">{item.descripcion}</p>
                 <a href={linkWhatsApp(item.servicio)} target="_blank" className="inline-flex items-center gap-2 font-bold text-brandTeal text-xs uppercase tracking-widest hover:gap-4 transition-all">
-                  Consultar Alcance Técnico
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                  Consultar Alcance Técnico &rarr;
                 </a>
               </div>
             ))}
@@ -197,7 +196,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. CTA FINAL: PODEROSO */}
+      {/* 6. CTA FINAL */}
       <section className="py-48 bg-brandBlue relative overflow-hidden text-center rounded-t-[5rem] mx-4">
         <div className="absolute top-0 left-0 w-96 h-96 bg-brandTeal opacity-10 blur-[100px] -translate-x-1/2 -translate-y-1/2"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-6">
