@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brandBlue: '#2B5B84', // Azul de tu folleto
-        brandTeal: '#4DB6AC', // Turquesa de tu logo
-      }
+        brandBlue: '#2B5B84',
+        brandTeal: '#4DB6AC',
+      },
     },
   },
   plugins: [],
